@@ -15,7 +15,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-//  border: 1px solid red;
+/*  border: 1px solid red; */
   display: flex;
   position: relative;
   margin: auto;
@@ -37,7 +37,7 @@
   left: 64px;
   width: 183px;
   height: 32px;
-//  border: 1px solid black;
+/*  border: 1px solid black;*/
 }
 
 .header__title{
@@ -50,7 +50,7 @@
   line-height: 96px;
   font-size: 102px;  
   font-weight: 700;
-//  border: 1px solid purple;
+/* border: 1px solid purple;*/
 }
 
 .header__subtitle{
@@ -62,7 +62,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-//  border: 1px solid blue;
+/*  border: 1px solid blue;*/
 }
 
 .header__link{
@@ -79,7 +79,7 @@
   width: 765px;
   height: 608px;
   z-index: 1;
-//  border: 1px solid burlywood;
+/*  border: 1px solid burlywood;*/
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
@@ -96,12 +96,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
 }
 
 .two-columns{
   margin-top: 100px;
-// border: 1px solid red;
+/* border: 1px solid red;
   min-height: auto;
   width: 80%;
   display: flex;
@@ -112,7 +112,7 @@
   width: 175px;
   min-height: auto;
   margin: 0;
-//  border: 1px solid burlywood;
+/*  border: 1px solid burlywood;*/
   line-height:  1.2;
   font-size: 18px;
   font-weight: normal;
@@ -122,7 +122,7 @@
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
-//  border: 1px solid blue;
+/*  border: 1px solid blue;*/
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -131,7 +131,7 @@
 
 .two-columns__paragraph{
   width: 100%;
-//  border: 1px solid black;
+/*  border: 1px solid black;*/
   margin: 0;
   line-height: 34px;
   font-size: 24px;
@@ -148,7 +148,7 @@
 }
 
 .digits{
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   display: flex;
   align-items: center;
   
@@ -157,7 +157,7 @@
 }
 
 .section-title{
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   margin-top: 100px;
   margin-bottom: 20px;
   width: 60%;
@@ -169,7 +169,7 @@
 }
 
 .section-subtitle{
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   width: 60%;
   min-height: auto;
   text-align: center;
@@ -181,7 +181,7 @@
 .table{
   width: 1100px;
   min-height: auto;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 100px;
@@ -191,12 +191,12 @@
 .table__cell{
   width: 250x;
   margin-top: 60px;
-//  border: 1px solid rgb(172, 167, 177);
+/*  border: 1px solid rgb(172, 167, 177);*/
 }
 
 .table__heading{
   width: 250x;
-//  border: 1px solid blue;
+/*  border: 1px solid blue;*/
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -205,7 +205,7 @@
 .table__text{
   margin-top: 20px;
   width: 250px;
-//  border: 1px solid black;
+/*  border: 1px solid black;*/
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -221,7 +221,7 @@
   display: flex; 
   flex-direction: column;
   align-items: center;
-// border: 1px solid red;
+/* border: 1px solid red;*/
   position: relative;
 }
 
@@ -233,7 +233,7 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
- // border: 1px solid red;
+ /* border: 1px solid red;*/
 }
 
 .feynman__subtitle{
@@ -241,14 +241,14 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-//  border: 1px solid red;
+/*  border: 1px solid red; */
 }
 
 .feynman__link{
   position: absolute;
   top: 50%;
   right: 48px;
- // border: 1px solid red;
+ /* border: 1px solid red;*/
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
@@ -261,7 +261,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
- // border: 1px solid red;
+ /* border: 1px solid red;*/
   background-color: black;
   position: relative;
   overflow: hidden
@@ -287,14 +287,14 @@
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
-//  border: 1px solid rgb(106, 76, 136);
+/* border: 1px solid rgb(106, 76, 136);*/
   color: white;
   z-index: 1;
 }
 
 .table__text_theme_dark{
   width: 200px;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
 }
 
 .kaufman__triangle{
@@ -310,7 +310,7 @@
 
 .footer{
   min-height: 350px;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -324,25 +324,25 @@
   width: 90%;
   margin: 60px auto 40px;
   min-height: 100%;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   flex-grow: 3;
 }
 
 .footer__column_content_copyright{
   flex-basis: 711px;
   position: relative;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   
 }
-
+/* 
 .footer__column_content_info{
-//  border: 1px solid red;
+ border: 1px solid red;
 }
 
 .footer__column_content_social{
-//  border: 1px solid red;
+ border: 1px solid red; 
 }
-
+*/
 .logo_another_header{
   width: 183px;
   height: 35px;
@@ -351,14 +351,14 @@
   z-index: 100;
   top: 0;
   left: 0;
- // border: 1px solid black;
+ /* border: 1px solid black;*/
 }
 
 .footer__author{
   position: absolute;
   bottom: 18px;
   margin-top: 18px;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -366,7 +366,7 @@
 }
 
 .footer__column-heading{
-//  border: 1px solid red;
+/* border: 1px solid red;*/
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -376,7 +376,7 @@
 .footer__column-links{
   margin-top: 20px;
   margin-bottom: 16px;
-//  border: 1px solid red;
+/* border: 1px solid red;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -387,7 +387,7 @@
   font-size: 18px;
   font-weight: normal;
   min-height: auto;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   text-decoration: none;
   color: white;
   display: flex;
@@ -402,6 +402,6 @@
   width: 16px;
   height: 16px;
   z-index: 120;
-//  border: 1px solid red;
+/*  border: 1px solid red;*/
   padding-right: 10px;
 }
