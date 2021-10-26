@@ -43,7 +43,7 @@
 .header__title{
   margin: 0;
   display: flex;
-  align-items: center; 
+  align-items: center;
   margin-left:64px;
   width: 730px;
   line-height: 96px;
@@ -282,7 +282,7 @@ ul{
 */
 .kaufman__triangle{
   background-image: url('../images/kaufman-triangle.svg');
-  background-size: contain;
+  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -323,7 +323,7 @@ ul{
  border: 1px solid red; 
 }
 */
-.logo_another_header{
+.logo_place_footer{
   width: 183px;
   height: 35px;
   background-image: url('../images/logo_place_footer.svg');
