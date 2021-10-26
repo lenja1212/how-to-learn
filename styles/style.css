@@ -43,7 +43,7 @@
 .header__title{
   display: flex;
   align-items: center;
-  margin-left: 64px;
+  padding-left: 64px;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
