@@ -24,9 +24,11 @@
   /* выше установили ограничения для секции */
 }
 
+/*
 .logo{
   position: relative;
 }
+*/
 
 .logo_place_header{
   background-image: url('../images/logo_place_header.svg');
@@ -39,26 +41,27 @@
 }
 
 .header__title{
+  margin: 0;
   display: flex;
-  align-items: center;
-  position: absolute;
-  left:64px;
+  align-items: center; 
+  margin-left:64px;
   width: 730px;
-  min-height: auto;
   line-height: 96px;
   font-size: 102px;
   font-weight: 700;
+  z-index: 2;
 }
 
 .header__subtitle{
+  margin: 0;
   position: absolute;
-  min-height: auto;
   width: 388px;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__link{
@@ -67,7 +70,6 @@
 }
 
 .header__main-illustration{
-  background-image: url('../images/header-image.png');
   background-size: cover;
   position: absolute;
   right: 0;
@@ -103,7 +105,6 @@
 
 .two-columns__brief{
   width: 175px;
-  min-height: auto;
   margin: 0;
   line-height:  1.2;
   font-size: 18px;
@@ -114,7 +115,6 @@
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -162,11 +162,11 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .table{
   width: 1100px;
-  min-height: auto;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 100px;
@@ -178,23 +178,29 @@
   margin-top: 60px;
 }
 
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .table__heading{
-  width: 250px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text{
-  margin-top: 20px;
-  width: 250px;
+  padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .feynman{
-  height: 890px;
+  min-height: 890px;
   background-image: url('../images/feynman.png');
   background-color:  #f2f2f2;
   background-repeat: no-repeat;
@@ -204,10 +210,12 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-top: 100px;
+  box-sizing: border-box;
 }
 
 .feynman__title{
-  margin-top: 100px;
+  margin-top: 0;
   margin-bottom: 70px;
   width: 648px;
   text-align: center;
@@ -221,6 +229,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin: 0;
 }
 
 .feynman__link{
@@ -235,11 +244,10 @@
 }
 
 .kaufman{
-  min-height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color:  #000000;
   position: relative;
   overflow: hidden;
 }
@@ -247,6 +255,7 @@
 .section-title_theme_dark{
   margin-top: 90px;
   color: white;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark{
@@ -257,7 +266,6 @@
 .table_theme_dark{
   min-width: auto;
   margin: 0 auto 90px;
-
 }
 
 .table__cell_theme_dark{
@@ -267,14 +275,14 @@
   color: white;
   z-index: 1;
 }
-
+/*
 .table__text_theme_dark{
   width: 200px;
 }
-
+*/
 .kaufman__triangle{
   background-image: url('../images/kaufman-triangle.svg');
-  background-size: cover;
+  background-size: contain;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -286,9 +294,9 @@
 .footer{
   min-height: 350px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: stretch;
-  background-color: black;
+  background-color:  #000000;
 }
 
 .footer__columns{
@@ -297,14 +305,15 @@
   justify-content: space-between;
   width: 90%;
   margin: 60px auto 40px;
-  min-height: 100%;
-  flex-grow: 3;
 }
 
 .footer__column_content_copyright{
   flex-basis: 711px;
-  position: relative;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 /* 
 .footer__column_content_info{
  border: 1px solid red;
@@ -318,15 +327,13 @@
   width: 183px;
   height: 35px;
   background-image: url('../images/logo_place_footer.svg');
-  position: absolute;
   z-index: 100;
-  top: 0;
-  left: 0;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .footer__author{
-  position: absolute;
-  bottom: 18px;
+  margin-bottom: 18px;
   margin-top: 18px;
   line-height: 25px;
   font-size: 18px;
@@ -339,6 +346,7 @@
   font-size: 18px;
   font-weight: bold;
   color: white;
+  margin: 0;
 }
 
 .footer__column-links{
@@ -353,7 +361,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  min-height: auto;
   text-decoration: none;
   color: white;
   display: flex;
@@ -367,6 +374,5 @@
 .footer__social-icon{
   width: 16px;
   height: 16px;
-  z-index: 120;
   padding-right: 10px;
 }
