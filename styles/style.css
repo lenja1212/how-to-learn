@@ -41,19 +41,15 @@
 }
 
 .header__title{
-  margin: 0;
   display: flex;
-<<<<<<< HEAD
   align-items: center;
-=======
-  align-items: center; 
->>>>>>> 3a2df01dedae5f67aed7f43a0714a3dfcbc3a9df
-  margin-left:64px;
+  margin-left: 64px;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 700;
   z-index: 2;
+  margin: 0;
 }
 
 .header__subtitle{
