@@ -43,7 +43,11 @@
 .header__title{
   margin: 0;
   display: flex;
+<<<<<<< HEAD
   align-items: center;
+=======
+  align-items: center; 
+>>>>>>> 3a2df01dedae5f67aed7f43a0714a3dfcbc3a9df
   margin-left:64px;
   width: 730px;
   line-height: 96px;
@@ -282,7 +286,7 @@ ul{
 */
 .kaufman__triangle{
   background-image: url('../images/kaufman-triangle.svg');
-  background-size: cover;
+  background-size: contain;
   width: 877px;
   height: 877px;
   position: absolute;
